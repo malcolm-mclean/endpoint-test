@@ -6,19 +6,19 @@ You may optionally make additional calls to include other information such as wh
 
 The design of the page is up to you, but you can refer to this as a guide:
 
-IMAGE
+![Sample Page](https://github.com/malcolm-mclean/endpoint-test/tree/master/documentation/sample_mockup.png "Sample Page")
 
 ## Development
 
 * Clone or download this repo
 * Make your changes to CSS and JS files in either:
-* * `./assets/src` (see [Optional](#optional))
-* * `./assets/dist`
+  * `./assets/src` (see [Optional](#optional))
+  * `./assets/dist`
 * Make HTML changes to `./index.html`
 
 When complete, either push up a branch on this repo (`git push origin <your branch name>`) and let us know, or send your changes to us via email.
 
-#### *Optional*
+#### Optional
 
 This repo contains build tools for SCSS and browser sync which allow you to work with the files in the `assets/src` directory. If you would like to use these tools while developing, follow these steps:
 
