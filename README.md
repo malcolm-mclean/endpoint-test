@@ -6,7 +6,7 @@ You may optionally make additional calls to include other information such as wh
 
 The design of the page is up to you, but you can refer to this as a guide:
 
-![Sample Page](https://github.com/malcolm-mclean/endpoint-test/tree/master/documentation/sample_mockup.png "Sample Page")
+![Sample Page](https://github.com/malcolm-mclean/endpoint-test/blob/master/documentation/sample_mockup.png?raw=true "Sample Page")
 
 ## Development
 
