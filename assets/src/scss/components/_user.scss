@@ -1,0 +1,26 @@
+.user-info-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.user-name {
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.user-email {
+	font-size: 1.5rem;
+	margin-bottom: 0.5rem;
+}
+
+.user-company {
+	color: $gray-2;
+	font-weight: 600;
+	margin-bottom: 0.5rem;
+}
+
+.user-company-catchphrase {
+	color: $gray-2;
+	margin-bottom: 0;
+}

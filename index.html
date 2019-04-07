@@ -1,6 +1,24 @@
 <!DOCTYPE html>
 <html>
-	<head></head>
-	<body></body>
-	<footer><script type="text/javascript" src="./assets/dist/js/index.js"></script></footer>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Languishing in Latin</title>
+		<link rel="stylesheet" href="./assets/dist/css/styles.css">
+	</head>
+	<body>
+		<main class="container">
+			<h1 class="margin-t-40 margin-b-40">Languishing in Latin</h1>
+			<form id="form" class="form margin-b-40">
+				<input type="number" id="input" class="form-search" placeholder="Search a User ID" min="1" max="10" />
+				<button type="submit" id="submit" class="form-submit">Search</button>
+			</form>
+			<div id="spinner" class="loading-spinner hide"></div>
+			<section id="user" class="user margin-b-40"></section>
+			<section id="content" class="content"></section>
+		</main>
+	</body>
+	<footer>
+		<script type="module" src="./assets/dist/js/index.js" async></script>
+	</footer>
 </html>

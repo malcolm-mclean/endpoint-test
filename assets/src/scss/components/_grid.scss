@@ -1,0 +1,28 @@
+.container {
+	width: calc(100% - 2rem);
+	margin: 0 auto;
+}
+
+@media (min-width: $screen-sm) {
+	.container {
+		width: ($screen-sm - ($base-unit * 2));
+	}
+}
+
+@media (min-width: $screen-md) {
+	.container {
+		width: ($screen-md - ($base-unit * 2));
+	}
+}
+
+@media (min-width: $screen-lg) {
+	.container {
+		width: ($screen-lg - ($base-unit * 2));
+	}
+}
+
+@media (min-width: $screen-xl) {
+	.container {
+		width: ($screen-xl - ($base-unit * 2));
+	}
+}

@@ -1,0 +1,33 @@
+.form {
+	display: flex;
+}
+
+.form-search, .form-submit {
+	display: inline-flex;
+	font-size: 2rem;
+	line-height: 1.5;
+	padding: 0.5rem 1rem;
+}
+
+.form-search {
+	width: calc(100% - 10rem);
+	border: 1px solid $gray-2;
+	padding-right: 0;
+
+	&:focus {
+		border-color: $gray-1;
+	}
+}
+
+.form-submit {
+	width: 10rem;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	cursor: pointer;
+
+	&:hover,
+	&:focus {
+		background: mix(#000, $blue-1, 15%);
+	}
+}

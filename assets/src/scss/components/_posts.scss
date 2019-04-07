@@ -1,0 +1,24 @@
+.post-count {
+	text-transform: uppercase;
+	font-weight: 600;
+	border-bottom: 1px solid #f3f3f3;
+	margin-bottom: 0;
+}
+
+.post {
+	margin: 2.5rem 0;
+	border-bottom: 1px solid #f3f3f3;
+
+	&:last-child {
+		border-bottom: 0;
+	}
+}
+
+.post-title {
+	font-size: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+.post-content {
+	margin-bottom: 2.5rem;
+}
