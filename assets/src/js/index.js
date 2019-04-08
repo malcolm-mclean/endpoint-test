@@ -1,1 +1,0 @@
-const endpointUri = 'https://jsonplaceholder.typicode.com/';
