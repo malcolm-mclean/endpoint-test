@@ -2,14 +2,13 @@
 
 In this test you'll be creating a page that searches [this free API](https://github.com/typicode/jsonplaceholder#jsonplaceholder) for posts created by a user given the user's ID. The API should be queried using Javascript.
 
-This test has no time limit, but it's recommended that you spend no more than 6 hours on it. The design of the page is up to you but you can refer to this as a guide:
+This test has no time limit, although it's recommended that you spend no more than 6 hours on it. The design of the page is up to you but you can refer to this as a guide:
 
 ![Sample Page](https://github.com/malcolm-mclean/endpoint-test/blob/master/documentation/sample_mockup.png?raw=true "Sample Page")
 
 ## Development
 
 - Clone or download this repo
-- (If cloning) `git checkout -b <your branch name>`
 - Make your changes to CSS and JS files in either:
   - `./assets/src` (see [Optional](#optional))
   - `./assets/dist`
